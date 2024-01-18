@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <img src="/images/profile.jpg" alt="Your Name" />
+      <img className={styles.profile}src="/images/profile.jpg" alt="Your Name" />
 
       <main>
         <h1 className={styles.title}>
@@ -33,14 +33,32 @@ I've made it my life's goal to automate everything I can, to the best of my abil
           </a>
 
           <a className={styles.card}>
-            <h2>The <b>DRIVE</b></h2>
-            <p>The drive to learn more has been an enduring force in my life. Growing up in a household where curiosity was not just encouraged but celebrated, I developed a profound love for acquiring knowledge. Those who guided me with both firm hands and  warm hearts, always emphasized the importance of continuous learning.
-
-            They taught me that the more we learn, the more we can accomplish. And so, my commitment to automating everything to the best of my abilities is fueled by this relentless thirst for knowledge. Every new challenge is an opportunity to expand my horizons, and I look forward to the countless discoveries that lie ahead.
+            <h2>The <b>Expectations</b></h2>
+            <p>
+              <ul>
+              <li>I expect implementing applications</li>
+              <li>Database integration</li>
+              <li>Java integration to websites</li>
+              </ul>
             </p>
           </a>
 
         </div>
+
+        <p className={styles.headername}>10 Things that require Zero Talent</p>
+        <ol>
+        <li>Being on Time</li>
+        <li>Making An Effort</li>
+        <li>Being High Energy</li>
+        <li>Having A Positive Attitude</li>
+        <li>Being Passionate</li>
+        <li>Using Good Body Language</li>
+        <li>Being Coachable</li>
+        <li>Doing A little Extra</li>
+        <li>Being Prepared</li>
+        <li>Strong Work Ethic</li>
+
+        </ol>
       </main>
 
       <footer>

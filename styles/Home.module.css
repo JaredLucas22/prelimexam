@@ -57,7 +57,9 @@
     color 0.15s ease,
     border-color 0.15s ease;
 }
-
+.headername{
+  font-size: 30px;
+}
 .card:hover,
 .card:focus,
 .card:active {
@@ -85,4 +87,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.profile{
+  border-radius: 800px;
 }
