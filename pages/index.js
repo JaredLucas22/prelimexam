@@ -13,39 +13,10 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a>JARED'S BLOGSITE</a>
+          Jared John C. Lucas
         </h1>
-        <div className={styles.grid}>
-        <a className={styles.card}>
-            <h2>Who am I? </h2>
-            <p>
-I'm Jared Lucas, and I've always been obsessed with automation. I come from a family that's passionate about computers, and my dad, who's no longer with us, pushed me to excel in everything I did. His guidance taught me resilience and a strong work ethic.
 
-I've made it my life's goal to automate everything I can, to the best of my abilities. From coding to tinkering with gadgets, I'm all about streamlining processes and making life more efficient. My dad's memory fuels my dedication, and I believe technology can enhance our lives and give us more time for meaningful pursuits. </p>
-          </a>
-
-
-
-      
-        <a className={styles.card}>
-            <h2>What can I do? </h2>
-            <p>With the right tools and knowledge, I've come to believe that I can practically do anything. My upbringing in a family deeply passionate about technology, and the influence of my late father, who was tough on me in the best way possible, have shaped my perspective. They instilled in me not just the skills but the resilience and unwavering work ethic required to succeed. My life's mission revolves around automation. From coding to crafting innovative solutions, I'm driven by the idea of optimizing processes and making life more efficient.</p>
-          </a>
-
-          <a className={styles.card}>
-            <h2>The <b>Expectations</b></h2>
-            <p>
-              <ul>
-              <li>I expect implementing applications</li>
-              <li>Database integration</li>
-              <li>Java integration to websites</li>
-              </ul>
-            </p>
-          </a>
-
-        </div>
-
-        <p className={styles.headername}>10 Things that require Zero Talent</p>
+        <p className={styles.headername}>No Talent Required</p>
         <ol>
         <li>Being on Time</li>
         <li>Making An Effort</li>
@@ -59,6 +30,7 @@ I've made it my life's goal to automate everything I can, to the best of my abil
         <li>Strong Work Ethic</li>
 
         </ol>
+        <h2>This is a sample website - you’ll be building a site like this on our Next.js tutorial.</h2>
       </main>
 
       <footer>
